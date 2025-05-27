@@ -1,0 +1,83 @@
+.emp{
+    height: 100%;
+    width: 100%;
+    background-color: #E3EDF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.em {
+  max-width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.em-h {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.employee-form {
+  width:320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.form-group {
+    height:50px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 16px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #222;
+}
+
+.form-control {
+  height: 45px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius:inherit;
+
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+.btn-submit {
+  height: 50px;
+  font-size: 16px;
+  background-color: #121C3E;
+  color: white;
+  margin:5px;
+}
+.div{
+  height:300px;
+}
+.table-emp{
+  max-height: 600px;
+  border:1px solid black;
+  width:900px;
+   overflow-y: auto; 
+  justify-content: center;
+
+ 
+}
+.tab{
+  margin:40px;
+}

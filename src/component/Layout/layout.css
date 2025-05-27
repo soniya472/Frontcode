@@ -1,0 +1,18 @@
+
+.main-layout {
+  
+    height: 84vh;
+    width: 100%;
+    display: flex;
+}
+
+.content {
+  
+  height: 77vh;  
+  flex: 1;
+  padding: 27px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}

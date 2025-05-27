@@ -1,0 +1,80 @@
+.h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.s1 {
+
+  height:500px; 
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+   display: flex;
+   
+}
+
+.ch {
+  width: 200px;
+  border: 1px solid #bbb;
+  padding: 20px;
+  background-color: #121C3E;
+}
+
+.change {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #FFC20E;
+    text-align: center;
+    color: white;
+}
+
+.cp {
+  flex-grow: 1;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.input-group label {
+  width: 150px;
+  font-weight: 500;
+}
+
+.input-group input {
+  padding: 6px 10px;
+  width: 250px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+.set{
+    height:80%;
+    width:80%;
+    border:2px solid black;
+    background-color:#E3EDF9
+
+}
+.setting{
+   width: 100%;
+   height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#E3EDF9 ;
+}
+.btn-submit {
+  height: 50px;
+  font-size: 16px;
+  background-color: #121C3E;
+  color: white;
+  margin:5px;
+}
